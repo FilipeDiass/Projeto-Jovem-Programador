@@ -1,0 +1,90 @@
+section.containerShorts {
+    width: 100%;
+    height: fit-content;
+    padding: 16px;
+}
+
+section.containerShorts div.title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 24px;
+    gap: 6px;
+} 
+section.containerShorts div.title picture {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+}
+section.containerShorts div.title h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+div.containerSlide {
+    overflow: hidden;
+    width: 100%;
+    height: fit-content;
+}
+div.containerSlide > div {
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    gap: 12px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.containerSlide::-webkit-scrollbar {
+    display: none;
+  }
+div.containerSlide > div div.card{
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 170px;
+    height: 270px;
+    border-radius: 10px; 
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+}
+div.containerSlide > div div.card img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+div.containerSlide > div div.card span{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: fit-content;
+    padding: 8px 2px;
+    color: white;
+}
+div.containerSlide > div div.card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 8px 12px;
+    gap: 5px;
+    font-weight: 700;
+    color: white;
+}
+div.containerSlide > div div.card div p.title {
+    font-size: 14px;
+}
+div.containerSlide > div div.card div p.views {
+    font-size: 12px;
+}

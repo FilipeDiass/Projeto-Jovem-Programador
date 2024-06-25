@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url("styles/shorts.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +14,7 @@
     font-variation-settings:
     'FILL' 0,
     'wght' 200,
-    'GRAD' 10,
+    'GRAD' 0,
     'opsz' 24;
 
     color: #0F0F0F;

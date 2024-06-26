@@ -10,14 +10,19 @@ section.containerVideos {
 
 .card-details {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  flex-direction: row;
   padding: 0px 12px;
+}
+.container-details {
+  display: flex;
   gap: 12px;
+  align-items: center;
 }
 
 .video-thumb {
-  height: 220px;
+  object-fit: cover;
+  height: fit-content;
 }
 
 .channel-profile {
@@ -43,7 +48,7 @@ section.containerVideos {
   line-height: 18.75px;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #0F0F0F;
+  color: #0f0f0f;
 }
 
 .video-info p {

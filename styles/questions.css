@@ -1,0 +1,116 @@
+.card-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  padding: 16px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.question h2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  letter-spacing: 0.02em;
+  margin-bottom: 5px;
+}
+
+.question p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+}
+
+.text-color {
+  color: #606060;
+}
+
+button {
+  text-align: start;
+  padding: 8px;
+  height: 34px;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid #909090;
+  cursor: pointer;
+}
+
+.interactions {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.interactions img {
+  width: fit-content;
+}
+
+#like-icon,
+#dislike-icon,
+img {
+  cursor: pointer;
+}
+
+.interactions > div:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.interactions div > div {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+}
+
+.interactions p {
+  font-size: 14px;
+  align-self: center;
+}
+
+.interactions div > div:first-child p {
+  padding-right: 10px;
+}
+
+.interactions > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  margin-bottom: 20px;
+}
+
+.comment-box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.comment-box input {
+  width: 100%;
+  padding: 8px;
+  height: 34px;
+  border-radius: 8px;
+  border: none;
+  background-color: #F2F2F2;
+  outline: none;
+  align-self: baseline;
+}
+
+@media (min-width: 700px) {
+  .containerQuestions {
+    width: 100vw;
+  }
+  .card-questions {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+

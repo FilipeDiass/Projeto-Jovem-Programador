@@ -1,95 +1,97 @@
-header{
-    display: flex;
-    margin-top: 10px;
+header {
+  display: flex;
+  margin-top: 10px;
 }
 
-.header_logo{
-    margin-left: 10px;
+.header_logo {
+  margin-left: 10px;
 }
 
-header .header_icons{
-    display: flex;
-    flex-direction: row;
-    margin-left: 7rem;
-    font-weight: bold;
+header .header_icons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 7rem;
+  font-weight: bold;
 }
-header .header_icons_item{
-    padding-left:1rem ;
-}
-
- .navButtons {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    
+header .header_icons_item {
+  padding-left: 1rem;
 }
 
-.navButtons .navButtons_item{
-    display: flex;
-    flex-direction: row;
-    
-    
-}
-.compassIcon{
-    display: flex;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
+.navButtons {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
 }
 
-#All{
-    background-color: #0F0F0F;
-    color: #fff;
-    border: none;
-    padding: 8px 12px 8px 12px;
-    gap: 8px;
-    border-radius: 8px ;
-    margin-right: 10px;
+.navButtons .navButtons_item {
+  display: flex;
+  flex-direction: row;
+}
+.compassIcon {
+  display: flex;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+#All {
+  background-color: #0f0f0f;
+  color: #fff;
+  border: none;
+  padding: 8px 12px 8px 12px;
+  gap: 8px;
+  border-radius: 8px;
+  margin-right: 10px;
 }
 
 #NewToYou {
-   position: relative;
-    padding: 0px 12px;
-    gap: 2px;
-    border-radius: 8px;
-    border: 1px solid transparent; 
-    background-color: #fff; 
-    opacity: 1; 
-    margin-right: 10px;
+  position: relative;
+  padding: 0px 12px;
+  gap: 2px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  opacity: 1;
+  margin-right: 10px;
 }
 
-#NewToYou:before{  
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    border-radius: 8px;
-    background: linear-gradient(70.41deg, #38686E -6.45%, #741B7A 41.42%, #E18185 105.7%);
-    z-index: -1; /* Coloca a pseudo-elemento atrás do elemento principal */
+#NewToYou:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 8px;
+  background: linear-gradient(
+    70.41deg,
+    #38686e -6.45%,
+    #741b7a 41.42%,
+    #e18185 105.7%
+  );
+  z-index: -1; /* Coloca a pseudo-elemento atrás do elemento principal */
 }
 
-#UX{
-    border: none;
-    margin-right: 1rem;
-    background: none;
+#UX {
+  border: none;
+  margin-right: 1rem;
+  background: none;
 }
-#Figma{
-    border: none;
-    background: none;
+#Figma {
+  border: none;
+  background: none;
 }
 
 .material-symbols-outlined {
-    font-family: 'Material Symbols Outlined';
-    font-weight: bold;
-    font-size: 28px;
-    bottom: 10px;
-    letter-spacing: normal;
-    
-    
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-    
-    -webkit-font-smoothing: antialiased;
+  font-family: "Material Symbols Outlined";
+  font-weight: bold;
+  font-size: 28px;
+  bottom: 10px;
+  letter-spacing: normal;
+
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
 }

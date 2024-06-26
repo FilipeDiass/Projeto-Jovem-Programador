@@ -2,6 +2,7 @@
 
 @import url("styles/shorts.css");
 @import url("styles/questions.css");
+@import url("styles/videos.css");
 
 * {
     margin: 0;

@@ -1,0 +1,59 @@
+section.containerVideos {
+  padding: 0 0 16px 0;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 12px;
+  gap: 12px;
+}
+
+.video-thumb {
+  height: 220px;
+}
+
+.channel-profile {
+  width: 36px;
+  height: 36px;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.video-info > div {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.video-info .title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #0F0F0F;
+}
+
+.video-info p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  letter-spacing: 0.06em;
+  color: #606060;
+}
+
+.video-card-large {
+  height: 4000; /* Altura diferente para o primeiro vídeo */
+}

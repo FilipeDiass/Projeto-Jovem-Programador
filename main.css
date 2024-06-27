@@ -3,6 +3,7 @@
 @import url("styles/shorts.css");
 @import url("styles/questions.css");
 @import url("styles/videos.css");
+@import url("styles/footer.css");
 
 * {
     margin: 0;
@@ -19,4 +20,4 @@
     'opsz' 24;
 
     color: #0F0F0F;
-  }
+}

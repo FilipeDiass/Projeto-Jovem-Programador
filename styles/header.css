@@ -1,16 +1,11 @@
 header {
   display: flex;
-  margin-top: 10px;
-}
-
-.header_logo {
-  margin-left: 10px;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 header .header_icons {
   display: flex;
-  flex-direction: row;
-  margin-left: 7rem;
   font-weight: bold;
 }
 header .header_icons_item {
@@ -18,23 +13,31 @@ header .header_icons_item {
 }
 
 .navButtons {
-  margin-top: 1rem;
   display: flex;
-  flex-direction: row;
   margin-bottom: 10px;
 }
 
 .navButtons .navButtons_item {
   display: flex;
-  flex-direction: row;
+  padding: 5px 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow: hidden;
+  overflow-x: auto;
 }
+.navButtons .navButtons_item::-webkit-scrollbar {
+  display: none;
+}
+
 .compassIcon {
   display: flex;
+  align-items: center;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
 }
 
 #All {
+  flex-shrink: 0;
   background-color: #0f0f0f;
   color: #fff;
   border: none;
@@ -45,6 +48,7 @@ header .header_icons_item {
 }
 
 #NewToYou {
+  flex-shrink: 0;
   position: relative;
   padding: 0px 12px;
   gap: 2px;
@@ -56,6 +60,7 @@ header .header_icons_item {
 }
 
 #NewToYou:before {
+  flex-shrink: 0;
   content: "";
   position: absolute;
   top: -2px;
@@ -73,11 +78,13 @@ header .header_icons_item {
 }
 
 #UX {
+  flex-shrink: 0;
   border: none;
   margin-right: 1rem;
   background: none;
 }
 #Figma {
+  flex-shrink: 0;
   border: none;
   background: none;
 }
